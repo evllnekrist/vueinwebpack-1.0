@@ -1,0 +1,59 @@
+
+	.full-width{width: 100%;}
+	.center-text{
+		text-align: center;
+	}
+	.center-content{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.almond-bar{
+		width: 100%;
+		padding: 10px 0 15px 0;
+		margin-top: 20px;
+		background-color: #534038;
+		color: #a68d79;
+	}
+	.almond-bold{color: #d09e74; font-weight: 600; font-size: 18px;}
+	.almond-thin{color: #f2d2ab; font-size: 14px;}
+	.header{
+		position: fixed;
+		margin-top: -20px;
+		padding: 20px 20px 10px 20px; 
+	}
+	.the-content{		
+		padding-top: 40px;
+	}
+	.footer{
+		left:  0;
+		bottom: 0;
+		/* position: absolute; */
+	}
+
+	/* _____________________________________________________________________________ */
+	/*
+	/* html tag 
+	/* _____________________________________________________________________________ */
+	body{
+		font-size: 11px;
+		position: relative;
+	}
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	}
+	li{
+		float: left;
+	}
+	li a {
+	    text-decoration: none;
+	    display: block;
+	    width: 60px;  
+	    font-weight: 520;  
+	}
+	huge{
+		font-weight: 600;
+		font-size: 22px;
+	}
