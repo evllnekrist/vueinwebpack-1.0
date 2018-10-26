@@ -1,8 +1,15 @@
 <template>
 <div>
 	<div class="the-lining">
-		<div style="background-color:#534038; color:#f2d2ab" class="inner-lining btm-curve">
-		<huge id="main"><center> Blo<u>ody Moo</u>ldy </center></huge>
+		<div class="inner-lining-m curve-btm" style="background-color:#534038; color:#f2d2ab">
+		<center>
+		<huge id="main"> Blo<u>ody Moo</u>ldy </huge>
+			<br><br><br><br>
+			<button v-on:click="getData">Get Data</button>
+			<div v-if="loading">
+				<img src="../assets/images/loading-orange.gif" width="100px">
+			</div>
+		</center>
 		</div>
 	</div>
 
@@ -10,14 +17,14 @@
 
 		<hello-component name="Dutche" userid="239"></hello-component>
 
-		<div style="background-color:#384c27; color:white" class="inner-lining">
-		<huge id="once"> once, </huge>
+		<div class="inner-lining-m curve-top" style="background-color:#4CAF50;color:white">
+		<huge id="once"> once, </huge><!-- #384c27 -->
 		<p>
 			<div class="G1VCxe kno-fb-ctx"><div>All these pieces<br />Broken and scattered<br />In mercy gathered<br />Mended and whole<br />Empty handed<br />But not forsaken<br />I've been set free<br />I've been set free<br /><br />Amazing grace<br />How sweet the sound<br />That saved a wretch like me<br />I once was lost<br />But now I'm found<br />Was blind but now I see<br /><br />Oh I can see you now<br />Oh I can see the love in Your eyes<br />Laying yourself down<br />Raising up the broken to life<br /><br />You take our failure<br />You take our weakness<br />You set Your treasure<br />In jars of clay<br />So take this heart, Lord<br />I'll be Your vessel<br />The world to see<br />Your life in me<br /><br />Amazing grace<br />How sweet the sound<br />That saved a wretch like me<br />I once was lost<br />But now I'm found<br />Was blind but now I see<br /><br />Oh I can see you now<br />Oh I can see the love in Your eyes<br />Laying yourself down<br />Raising up the broken to life<br /><br />Amazing grace<br />How sweet the sound<br />That saved a wretch like me<br />I once was lost<br />But now I'm found<br />Was blind but now I see<br /><em>[2x]</em><br /><br />Oh I can see you now<br />Oh I can see the love in Your eyes<br />Laying yourself down<br />Raising up the broken to life<br /><br />Amazing grace<br />How sweet the sound<br />That saved a wretch like me<br />I once was lost<br />But now I'm found<br />Was blind but now I see<br /><em>[2x]</em><br /><br />Oh I can see you now<br />Oh I can see the love in Your eyes<br />Laying yourself down<br />Raising up the broken to life<br /><em>[3x]</em></div></div>
 		</p>
 		</div>
 
-		<div style="background-color:#b2acbd;" class="inner-lining">
+		<div class="inner-lining-m" style="background-color:#333;color:#4CAF50"><!-- #b2acbd -->
 		<huge id="twice"> twice, </huge>
 		<p>
 			[Verse]<br />I will sing, I will sing of Your love for me<br />In my life You&rsquo;re my everything<br />Chains are broken<br />My eyes are open<br />You&rsquo;re my freedom now<br />You have called me out from the dark<br />Now I&rsquo;m running into Your light<br />You&rsquo;ve changed my crying into dancing<br />My lips shall praise You now<br /><br />[Build]<br /><em>We praise You now, wo-ooh</em><br /><br />[Chorus]<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br /><br />[Verse]<br />I will sing, I will sing of Your love for me<br />In my life You&rsquo;re my everything<br />Chains are broken<br />My eyes are open<br />You&rsquo;re my freedom now<br />You have called me out from the dark<br />Now I&rsquo;m running into Your light<br />You&rsquo;ve changed my crying into dancing<br />My lips shall praise You now</p><p>[Build]<br /><em>We praise You now, wo-oo-ooh</em><br /><br />[Chorus]<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br /><br />[Instrumental]<br /><br />[Bridge]<br />I&rsquo;ll praise You forever<br />I&rsquo;ll praise You forever<br />With everything in me<br />Praise the name of Jesus<br /><br />I&rsquo;ll praise You forever<br />I&rsquo;ll praise You forever<br />With everything in me<br />Praise the name of Jesus<br /><br />I&rsquo;ll praise You forever<br />I&rsquo;ll praise You forever<br />With everything in me<br />Praise the name of Jesus</p><p>[Chorus]<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br /><br />[Outro]<br /><em>We praise You now<br />Jesus</em>
@@ -25,7 +32,7 @@
 		</p>
 		</div>
 
-		<div style="background-color:#f9e1e6" class="inner-lining">
+		<div class="inner-lining-m" style="background-color:#f9e1e6">
 		<huge id="thrice"> thrice, </huge>
 		<p>
 			<div class="G1VCxe kno-fb-ctx">
@@ -51,6 +58,10 @@
 	import HelloComponent from './components/HelloComponent.vue'
 
 	export default{
+		name: 'app',
+		data(){
+			return {}
+		},
 		components:{
 			HelloComponent
 		}

@@ -21,7 +21,22 @@ module.exports = {
 					'vue-style-loader',
 					'css-loader'
 				]
-			}
+			},
+			{
+				test: /\.js$/,
+				use: 'babel-loader'
+			},
+			{
+		        test: /\.(png|jpg|gif|svg)$/,
+		        loader: 'file-loader',
+		        options: {
+		          name: '[name].[ext]?[hash]'
+		    	}
+		    },
+		    { 
+		        test: /\.(png|woff|woff2|eot|ttf|svg)$/, 
+		        loader: 'url-loader?limit=100000' 
+		    }
 		]
 	},
 	plugins:[
