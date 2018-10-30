@@ -3,7 +3,7 @@
 
 	<div class="center-text the-content">
 
-		<hello-component name="Mr. Hawk" userid="815"></hello-component>
+		<hello-component robotName="Mr. Pumpkins" robotId="712"></hello-component>
 
 		<div class="inner-lining-m curve-top" style="background-color:#4CAF50;color:white">
 		<div class="huge"  id="once"> once, </div><!-- #384c27 -->

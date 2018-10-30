@@ -20,7 +20,6 @@
 </template>
 
 <script>
-	// import axios from 'axios';
 	import * as NETWORK_ARTICLE from '../network/article.apiclient.js'
 
 	export default{
@@ -42,10 +41,10 @@
 				}else{
 					this.loading = true
 					NETWORK_ARTICLE.GET_ARTICLE()
-					.then((response)=>{
+					.then((res)=>{
 						// console.log(response.data.data)
-						this.data = response.data.data.articles
-					}, (error)=>{
+						this.data = res.data.data.articles
+					}, (err)=>{
 						alert("Hoops..")
 					})
 					this.loading = false
