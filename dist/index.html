@@ -6,27 +6,15 @@
 	<title>ViW</title>
 </head>
 <body>
-	<div class="almond-bar header">
-		<ul>
-			<li><a class="almond-thin" href="#once">Once</a></li>
-			<li><a class="almond-thin" href="#twice">Twice</a></li>
-			<li><a class="almond-thin" href="#thrice">Thrice</a></li>
-		</ul>
-	</div>
 	<div id="app"></div>
-	<center class="almond-bar footer">
-		<i>~ this is footer ~</i>
-		<div class="almond-bold">vue-in-webpack | 2018</div>
-		<i>~ this is footer ~</i>
-	</center>
 	<!-- <script src="dist/main.js" type="text/javascript"></script> -->
 <script type="text/javascript" src="main.js"></script></body>
 </html>
 
 <!-- 
-If I check my console I can see the application is building so what is wrong? Well when we setup our index.html we hardcoded the path to our javascript, for hot module reloading to work we need to allow this path to be injected, that way the dev server can update the html to include the changes as and when they are made.
+	If I check my console I can see the application is building so what is wrong? Well when we setup our index.html we hardcoded the path to our javascript, for hot module reloading to work we need to allow this path to be injected, that way the dev server can update the html to include the changes as and when they are made.
 
-Go to the index.html and remove the script tag that points to dist/main.js, then install the html-webpack-plugin
+	Go to the index.html and remove the script tag that points to dist/main.js, then install the html-webpack-plugin
 
-https://itnext.io/vue-js-and-webpack-4-from-scratch-part-2-5038cc9deffb
+	https://itnext.io/vue-js-and-webpack-4-from-scratch-part-2-5038cc9deffb
  -->
