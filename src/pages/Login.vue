@@ -8,12 +8,12 @@
 				<form @submit.prevent="validateBeforeSubmit">
 				  <div class="form-row">
 				    <div class="form-group col-md-6">
-				      <label for="inputEmail4">Email</label>
+				      <label for="inputEmail">Email</label>
 				      <input type="email" class="form-control" name="username" v-model="username" placeholder="Email" v-validate="'required'" :disabled="formDisabled">
 				      <span>{{ errors.first('username') }}</span>
 				    </div>
 				    <div class="form-group col-md-6">
-				      <label for="inputPassword4">Password</label>
+				      <label for="inputPassword">Password</label>
 				      <input type="password" class="form-control" name="password" v-model="password" placeholder="Password" v-validate="'required'" :disabled="formDisabled">
 				      <span>{{ errors.first('password') }}</span>
 				    </div>
@@ -30,7 +30,6 @@
 </template>
 
 <script>
-	// import {AUTHENTICATE} from "../../network/auth.apiclient.js"
 	export default{
 		name: "login",
 		data(){ 
@@ -59,8 +58,8 @@
 		            this.$store.dispatch("login", params).then(res => {
 		              if (this.$store.getters.getToken) {
 		              	this.loading = false
-		              	alert("Welcome")
 		                this.$router.push(this.last_route)
+		              	// alert("Welcome back, "+this.$store.getters.getFullname)
 		              } else {
 		              	this.loading = false
 		                this.errors_msg = 'Invalid Credentials'

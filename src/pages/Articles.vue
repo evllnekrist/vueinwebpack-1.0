@@ -1,5 +1,5 @@
 <template>
-	<div class="the-lining">
+	<div class="the-lining bg-wood">
 		<div class="inner-lining-m curve-btm" style="background-color:#534038; color:#f2d2ab">
 		<center>
 		<div class="huge"  id="main"> Blo<u>ody Moo</u>ldy </div>
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-	import * as NETWORK_ARTICLE from '../network/article.apiclient.js'
+	import * as NETWORK_ARTICLE from '../network/article.apiclient'
 
 	export default{
 		name: 'articles',
@@ -29,6 +29,7 @@
 		data(){
 			return {
 				data: [],
+				limit_data: 5,
 				loading: false,
 				command: "Get Data"
 			}
@@ -40,7 +41,7 @@
 					this.command = "Get Data"
 				}else{
 					this.loading = true
-					NETWORK_ARTICLE.GET_ARTICLE()
+					NETWORK_ARTICLE.GET_ARTICLE(this.$store.getters.getToken, this.limit_data, 1)
 					.then((res)=>{
 						// console.log(response.data.data)
 						this.data = res.data.data.articles

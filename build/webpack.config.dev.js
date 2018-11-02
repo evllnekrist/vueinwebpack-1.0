@@ -22,7 +22,8 @@ module.exports = {
 			},
 			{
 				test: /\.js$/,
-				use: 'babel-loader'
+				use: 'babel-loader',
+				exclude: /node_modules/
 			},
 			{
 		        test: /\.(png|jpg|gif|svg)$/,
@@ -36,6 +37,12 @@ module.exports = {
 		        loader: 'url-loader?limit=100000' 
 		    }
 		]
+	},
+	resolve: {
+		alias: {
+	      'vue$': 'vue/dist/vue.esm.js'
+	    },
+	    extensions: ['*', '.js', '.vue', '.json']
 	},
 	devServer: {
 		historyApiFallback: true,

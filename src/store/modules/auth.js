@@ -31,9 +31,10 @@ const actions = {
 		return AUTHENTICATE(params).then(response=>{
 			localStorage.setItem('token', response.data.user.api_token);
 			localStorage.setItem('fullname', response.data.user.fullname);
-			// console.log("Tokens value .. ", response.data.user.api_token)
 			commit(types.LOGIN_SUCCESS);
+			// console.log("retrieve data, ", response.data.user.fullname, "\n", response.data.user.api_token);
 		}).catch(error =>{
+			console.log("login failed, \n", error);
 			commit(types.LOGIN_FAILED)
 		})
 	},

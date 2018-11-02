@@ -15,7 +15,7 @@
 		<div class="inner-lining-m" style="background-color:#333;color:#4CAF50"><!-- #b2acbd -->
 		<div class="huge"  id="twice"> twice, </div>
 		<p>
-			[Verse]<br />I will sing, I will sing of Your love for me<br />In my life You&rsquo;re my everything<br />Chains are broken<br />My eyes are open<br />You&rsquo;re my freedom now<br />You have called me out from the dark<br />Now I&rsquo;m running into Your light<br />You&rsquo;ve changed my crying into dancing<br />My lips shall praise You now<br /><br />[Build]<br /><em>We praise You now, wo-ooh</em><br /><br />[Chorus]<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br /><br />[Verse]<br />I will sing, I will sing of Your love for me<br />In my life You&rsquo;re my everything<br />Chains are broken<br />My eyes are open<br />You&rsquo;re my freedom now<br />You have called me out from the dark<br />Now I&rsquo;m running into Your light<br />You&rsquo;ve changed my crying into dancing<br />My lips shall praise You now</p><p>[Build]<br /><em>We praise You now, wo-oo-ooh</em><br /><br />[Chorus]<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br /><br />[Instrumental]<br /><br />[Bridge]<br />I&rsquo;ll praise You forever<br />I&rsquo;ll praise You forever<br />With everything in me<br />Praise the name of Jesus<br /><br />I&rsquo;ll praise You forever<br />I&rsquo;ll praise You forever<br />With everything in me<br />Praise the name of Jesus<br /><br />I&rsquo;ll praise You forever<br />I&rsquo;ll praise You forever<br />With everything in me<br />Praise the name of Jesus</p><p>[Chorus]<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br /><br />[Outro]<br /><em>We praise You now<br />Jesus</em>
+			[Verse]<br />I will sing, I will sing of Your love for me<br />In my life You&rsquo;re my everything<br />Chains are broken<br />My eyes are open<br />You&rsquo;re my freedom now<br />You have called me out from the dark<br />Now I&rsquo;m running into Your light<br />You&rsquo;ve changed my crying into dancing<br />My lips shall praise You now<br /><br />[Build]<br /><em>We praise You now, wo-ooh</em><br /><br />[Chorus]<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br /><br />[Verse]<br />I will sing, I will sing of Your love for me<br />In my life You&rsquo;re my everything<br />Chains are broken<br />My eyes are open<br />You&rsquo;re my freedom now<br />You have called me out from the dark<br />Now I&rsquo;m running into Your light<br />You&rsquo;ve changed my crying into dancing<br />My lips shall praise You now</p><p>[Build]<br /><em>We praise You now, wo-oo-ooh</em><br /><br />[Chorus]<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br /><br />[Instrumental]<br /><br />[Bridge]<br />I&rsquo;ll praise You forever<br />I&rsquo;ll praise You forever<br />With everything in me<br />Praise the name of Jesus<br /><br />I&rsquo;ll praise You forever<br />I&rsquo;ll praise You forever<br />With everything in me<br />Praise the name of Jesus<br /><br />I&rsquo;ll praise You forever<br />I&rsquo;ll praise You forever<br />With everything in me<br />Praise the name of Jesus</p><p>[Chorus]<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br />Nothing&rsquo;s gonna stop us now<br />Nothing&rsquo;s gonna stop us now<br />From praising, praising, from praising You<br /><br />[Outro]<br /><em>We praise You now<br />Jesus</em></p>
 
 		</p>
 		</div>
@@ -23,8 +23,7 @@
 		<div class="inner-lining-m" style="background-color:#f9e1e6">
 		<div class="huge"  id="thrice"> thrice, </div>
 		<p>
-			<div class="G1VCxe kno-fb-ctx">
-			<div>
+			<div class="G1VCxe kno-fb-ctx"><div>
 			<p>Dalam kesesakanku<br />Kau b&rsquo;ri kedamaian-Mu<br />Dalam keraguan kutemukan wajah-Mu</p>
 			<p>&nbsp;</p>
 			<p>Kar&rsquo;na pengorbanan-Mu<br />Kau jadikanku baru<br />Sungguh ku terkagum<br />Aman ku di dalam-Mu Yesus</p>
@@ -32,8 +31,7 @@
 			<p>S&rsquo;mua kekuranganku Kau pun tau<br />Tetap Kau pandang indah dalam-Mu<br />Ku angkat tanganku dan berseru<br />Ku milik-Mu</p>
 			<p>I am Yours now forever<br />In Your grace I&nbsp;<span id="IL_AD4" class="IL_AD">surrender</span><br />You are mine now forever<br />I&rsquo;m alive in Your wonder</p>
 			<p><em>Words &amp; Music : Irwan Setiawan, Sidney Mohede,&nbsp;<span id="IL_AD2" class="IL_AD">Lukas</span>&nbsp;Guntur, John Luki, Irvan Limawan,&nbsp;<span id="IL_AD3" class="IL_AD">Nadine</span>&nbsp;Manoe, Joshua Tremonti, Kevin Reyan Panggabean, Meliana Christin</em></p>
-			</div>
-			</div>
+			</div></div>
 		</p>
 		</div>
 

@@ -6,7 +6,8 @@
 				<router-link :to="{name: 'let-login'}" class="almond-thin">click here</router-link>
 			</b>
 		</h4> 
-		<h5>my name is {{rname}} PROJECT-{{rid}}</h5>
+		<h5>my name is {{rname}} [PROJECT-{{rid}}]</h5>
+		<u>do as you please</u>
 		<br><br>
 	</div>
 	
