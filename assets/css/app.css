@@ -54,6 +54,7 @@ button:focus{
 	/* box-shadow: 0 0 0 2px rgb(247, 159, 31, 0.24), 0 17px 50px 0 rgba(247, 159, 31, 0.19); */
 }
 
+
 /* _____________________________________________________________________________ */
 /*
 /* classes
@@ -67,10 +68,10 @@ button:focus{
 	text-align: center;
 }
 .left{
-	text-align: left;
+	text-align: left !important;
 }
 .right{
-	text-align: right;
+	text-align: right !important;
 }
 .center-content{
 	display: flex;

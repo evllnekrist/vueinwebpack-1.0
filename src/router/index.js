@@ -5,7 +5,6 @@ const Dashboard = function(resolve){require(['../pages/Dashboard.vue'], resolve)
 const Articles = function(resolve){require(['../pages/Articles.vue'], resolve)}
 const Lyrics = function(resolve){require(['../pages/Lyrics.vue'], resolve)}
 const User = function(resolve){require(['../pages/User/User.vue'], resolve)}
-const Registration = function(resolve){require(['../pages/User/Register.vue'], resolve)}
 
 const Login = function(resolve){require(['../pages/Login.vue'], resolve)}
 
@@ -52,15 +51,6 @@ export const routes = [
 	components: {
 		'menu' : Menu,
 		'main-content' : User,
-		'footer': Footer
-	}
-},
-{
-	path: '/new-user',
-	name: 'new-user',
-	components: {
-		'menu' : Menu,
-		'main-content' : Registration,
 		'footer': Footer
 	}
 },

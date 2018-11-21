@@ -39,11 +39,12 @@
         </td>
         <td>
           <div class="btn-group">
-            <router-link :to="getRoute(item[detailIdentifier])">
+            <router-link v-show="show_another_page_route" :to="getRoute(item[detailIdentifier])">
               <strong type="button" class="btn btn-success btn-sm">
                 {{text_action}}
               </strong>
             </router-link>
+            <strong  v-show="show_same_page_route" type="button" class="btn btn-success" @click="triggerItem(idx, item[detail_identifier])">{{text_action}}</strong>
             <strong v-show="show_delete_btn" type="button" class="btn btn-danger btn-sm" @click="deleteItem(idx)">
               Delete
             </strong>
@@ -108,7 +109,15 @@
       detailParams:{},
       showDelete: {
         type: Boolean,
-        default: true
+        default: false
+      },
+      showAnotherPageRoute: {
+        type: Boolean,
+        default: false
+      },
+      showSamePageRoute: {
+        type: Boolean,
+        default: false
       },
       textAction: {
         type: String,
@@ -128,6 +137,8 @@
         detail_identifier: this.detailIdentifier,
         detail_route_type: this.detailRouteType,
         show_delete_btn: this.showDelete,
+        show_another_page_route: this.showAnotherPageRoute,
+        show_same_page_route: this.showSamePageRoute,
         text_action: this.textAction
       }
     },
@@ -159,6 +170,9 @@
       },
       deleteItem(id){
         this.$emit("delete", id)
+      },
+      triggerItem(id, id_identifier){
+        this.$emit("triggerCollapse", id, id_identifier)
       },
       clearFilter(){
         this.search = []
@@ -200,3 +214,22 @@
     font-size: 11px;
   }
 </style>
+ <!--
+  HOW TO USE:
+  <default-table 
+      :isLoading="loadingData"
+      :entity="data_entity"
+      :lastPage="last_page"
+      :listData="data"
+      :limitData="limit_data"
+      :detailAnotherRoute="'#collapseUserForm'"
+      :detailRoute="'detail-user'"
+      :detailRouteType="'params'"
+      :detailIdentifier="'id'"
+      :detailParams="{}"
+      :showDelete="true"
+      :showAnotherPageRoute="true"
+      :showSamePageRoute="false"
+      v-on:changePage="changePage"
+      v-on:changePageSearch="changePageSearch"/>
+  -->

@@ -2,19 +2,22 @@ import Vue from 'vue'
 import App from './App.vue'
 import Router from 'vue-router'
 import {routes} from './router/index'
+import {reusablemixin} from "./mixin/reusable.mixin"
 import store from './store/store'
 import VeeValidate from 'vee-validate'
 import Paginate from 'vuejs-paginate'
 import BootstrapVue from 'bootstrap-vue'
+// import 'jquery/jquery.js'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+// import 'bootstrap/dist/js/bootstrap.js'
 import '../assets/css/app.css'
 
 Vue.component('paginate', Paginate)
 Vue.use(Router)
 Vue.use(VeeValidate)
+Vue.mixin(reusablemixin)
 // vue.use(BootstrapVue)
-
 
 function debounce(fn, delay = 300) {
   var timeoutID = null;

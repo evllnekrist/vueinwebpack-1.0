@@ -1,11 +1,19 @@
 'use strict'
 
+// var path = require('path')
+var webpack = require('webpack')
 const { VueLoaderPlugin } = require('vue-loader')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
 	mode: 'development',
 	entry: ['./src/index.js'],
+	// output: {
+	//     path: path.resolve(__dirname, './dist'),
+	//     publicPath: '/dist/',
+	//     filename: 'bundle.js'
+	//    // filename: '[name].[hash].bundle.js'
+	// },
 	module: {
 		rules: [
 			{
@@ -46,8 +54,8 @@ module.exports = {
 	},
 	devServer: {
 		historyApiFallback: true,
-	    // noInfo: true,
-	    // overlay: true
+	    noInfo: true,
+	    overlay: true
   	},
 	plugins:[
 		new VueLoaderPlugin(),
@@ -55,6 +63,11 @@ module.exports = {
 			filename: 'index.html',
 			template: 'index.html',
 			inject: true
+		}),
+		new webpack.ProvidePlugin({
+			$: 'jquery',
+			jQuery: 'jquery',
+			'window.jQuery': 'jquery'
 		})
 	]
 }

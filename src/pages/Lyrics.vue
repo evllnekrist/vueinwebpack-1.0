@@ -20,7 +20,7 @@
 		</p>
 		</div>
 
-		<div class="inner-lining-m" style="background-color:#f9e1e6">
+		<div class="inner-lining-m" style="background-color:#f9e1e6;color:#333">
 		<div class="huge"  id="thrice"> thrice, </div>
 		<p>
 			<div class="G1VCxe kno-fb-ctx"><div>
