@@ -1,5 +1,5 @@
 <p>
   <a href="https://vuejs.org/">
-    <img src="https://rsp3k1pe7ulhpgnt-zippykid.netdna-ssl.com/wp-content/uploads/2017/03/vue.jpg">
+    <img src="https://cdn-images-1.medium.com/max/2000/1*QIg6vEjZmT5YMVKU5Rxr2A.png">
   </a>
 </p>
